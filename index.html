@@ -402,7 +402,7 @@
 				$('.target-menu li a').click(function(e){
 					let targetMenu = $(this).attr('href');
 					$('html,body').animate({
-						scrollTop:$(targetMenu).offset().top() - 75,
+						scrollTop:$(targetMenu).offset().top - 75,
 					},
 					1000
 					);
